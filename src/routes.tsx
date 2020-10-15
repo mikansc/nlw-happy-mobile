@@ -11,7 +11,11 @@ export default function Routes() {
   return (
     <NavigationContainer>
       <Navigator>
-        <Screen name="OrphanagesMap" component={OrphanagesMap} />
+        <Screen
+          name="OrphanagesMap"
+          component={OrphanagesMap}
+          options={{ headerShown: false }}
+        />
       </Navigator>
     </NavigationContainer>
   );
