@@ -3,6 +3,8 @@ import React from "react";
 import { StyleSheet, Text, View, Dimensions } from "react-native";
 import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
 
+import mapMarker from "./src/images/map-marker.png";
+
 export default function App() {
   return (
     <View style={styles.container}>
