@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "NLW3 Happy",
+    "slug": "mn-happy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Aplicativo HAPPY da Next Level Week n3 RocketSeat.",
+    "githubUrl": "https://github.com/mikansc/nlw-happy-mobile"
   }
 }
